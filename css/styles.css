@@ -50,10 +50,9 @@ p {
 }
 .container {
   background-color: #fff;
-  margin: 10px 0;
   position: relative;
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   font-family: Oswald,sans-serif;
   color: #000;
   display: flex;
@@ -65,22 +64,33 @@ p {
   background-color: #1e2124;
   padding: 50px 0 20px
 }
+
 .copyright {
   color: #fff;
   font-size: .75rem;
   padding: 20px 0
 }
+
+.fa-brands {
+  margin: 20px;
+  color: #dd1219;
+}
+
+.fa-brands:hover {
+  color: white;
+}
+
 #header {
   position: fixed;
   z-index: 1000;
   left: 0;
   top: 0;
   width: 100vw;
-  height: 20px
+  height: 20px;
 }
 #header h1 {
   font-size: 2rem;
-  color: #dd1219
+  color: #dd1219;
 }
 #header .header {
   min-height: 8vh;
@@ -142,7 +152,7 @@ p {
   letter-spacing: initial
 }
 #header .nav-list ul li:hover a {
-  color: #dc143c
+  color: #dd1219;
 }
 #header .hamburger {
   height: 60px;
